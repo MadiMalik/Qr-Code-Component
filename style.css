@@ -45,12 +45,13 @@ img{
 
 .container img{
     border-radius: 0.625rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.7rem;
 }
 .container h1{
+    font-size: 1.7rem;
     text-align: center;
     color: var(--Dark-blue);
-    margin-bottom:1rem;
+    margin-bottom:1.5rem;
 }
 
 .container p{
@@ -68,8 +69,8 @@ img{
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 500px){
+@media (min-width: 450px){
     .container{
-         width: 400px;
+         width: 350px;
     }
 }
